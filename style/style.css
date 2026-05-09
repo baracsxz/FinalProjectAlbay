@@ -1,0 +1,116 @@
+:root {
+    --albay-green: #2E8B57; 
+    --mayon-lava: #D22B2B;  
+    --volcanic-ash: #36454F; 
+    --bicol-cream: #F9FFF9; 
+}
+
+body {
+    background-color: var(--bicol-cream);
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: var(--volcanic-ash);
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: var(--albay-green) !important;
+    border-bottom: 10px solid var(--mayon-lava);
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand-text {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 15px;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), 
+                url('../images/mayon.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 90vh;
+}
+
+section p {
+    text-align: justify;
+    line-height: 1.7;
+}
+
+h2.text-success {
+    color: var(--albay-green) !important;
+    border-bottom: 3px solid var(--mayon-lava);
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: none;
+    border-top: 5px solid var(--albay-green);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+    height: 220px;       
+    width: 100%;
+    object-fit: cover;   
+    object-position: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;        
+}
+
+.card-body .btn {
+    margin-top: auto;   
+}
+
+.albay-footer {
+    background-color: var(--albay-green); 
+    color: white;
+    border-top: 10px solid var(--mayon-lava); 
+}
+
+.text-light-50 {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.text-light-50:hover {
+    color: white;
+    padding-left: 8px;
+}
+
+.footer-icons i {
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.footer-icons a:hover i {
+    color: var(--mayon-lava) !important;
+}
+
+@media (max-width: 768px) {
+    .brand-text { font-size: 1rem; }
+    .albay-footer { text-align: center; }
+}

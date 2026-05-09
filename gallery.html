@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        .gallery-container img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        .gallery-container img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo1.png" alt="Logo" width="70">
+                <span class="brand-text d-none d-sm-inline">Province of Albay Tourism</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="culture.html">Culture</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tips.html">Travel Tips</a></li>
+                    <li class="nav-item"><a class="nav-link" href="inquiry.html">Inquiry</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container py-5">
+        <div class="text-center mb-5">
+            <h2 class="text-success">Photo Gallery</h2>
+            <p class="text-muted">A visual journey through the majestic landscapes and colorful life of Albay.</p>
+        </div>
+
+        <div class="row g-3 gallery-container">
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/mayon3.jpg" alt="Albay View 1"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/donsol0.jpg" alt="Albay View 2"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/park1.jpg" alt="Albay View 3"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/muladbucad1.jpg" alt="Albay View 4"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/lignon1.jpg" alt="Albay View 5"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/pinangat1.jpg" alt="Albay View 6"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/atv4.jpg" alt="Albay View 7"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/grill1.jpg" alt="Albay View 8"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/tabak1.jpg" alt="Albay View 9"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/magayon1.jpg" alt="Albay View 10"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/ibalong1.jpg" alt="Albay View 11"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/abaca1.jpg" alt="Albay View 12"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/tiwi1.jpg" alt="Albay View 13"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/atv3.jpg" alt="Albay View 14"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/sumlang1.jpg" alt="Albay View 15"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/muladbucad4.jpg" alt="Albay View 16"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/ruin.jpg" alt="Albay View 18"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/vanishing1.jpg" alt="Albay View 17"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/cagsawa2.jpg" alt="Albay View 19"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/misibis2.jpg" alt="Albay View 20"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/park1.jpg" alt="Albay View 21"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/busay1.jpg" alt="Albay View 22"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/lignon0.jpg" alt="Albay View 23"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/muladbucad3.jpg" alt="Albay View 24"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/legazpi1.jpg" alt="Albay View 25"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/people1.jpg" alt="Albay View 26"></div>
+            <div class="col-6 col-md-4 col-lg-3"><img src="images/people2.jpg" alt="Albay View 27"></div>
+             <div class="col-6 col-md-4 col-lg-3"><img src="images/people3.jpg" alt="Albay View 28"></div>
+        </div>
+    </main>
+
+    <footer class="albay-footer py-5 mt-5">
+        <div class="container text-center text-md-start">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <h5 class="fw-bold">Explore Albay</h5>
+                    <p class="small opacity-75">Home of the world-famous "Perfect Cone" Mayon Volcano.</p>
+                </div>
+                <div class="col-md-2">
+                    <h5 class="fw-bold">Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-light-50 small">Home</a></li>
+                        <li><a href="destinations.html" class="text-light-50 small">Destinations</a></li>
+                        <li><a href="inquiry.html" class="text-light-50 small">Inquiry</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="fw-bold">Contact</h5>
+                    <p class="small mb-0 opacity-75">📍 Albay Capitol, Legazpi City</p>
+                    <p class="small mb-0 opacity-75">📞 +63 (052) 742-0242</p>
+                </div>
+                <div class="col-md-3 text-md-end">
+                    <div class="footer-icons">
+                        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-twitter-x"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 opacity-25">
+            <p class="text-center small mb-0">&copy; 2026 Mag-eksplorar asin mag-enjoy! All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
