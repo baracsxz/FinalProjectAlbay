@@ -125,3 +125,49 @@ h2.text-success {
     transform: scale(1.05); 
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3) !important;
 }
+
+.gallery-container img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.lightbox-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 24px;
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+
+.lightbox-btn:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.lightbox-prev { left: 15px; }
+.lightbox-next { right: 15px; }
+
+/* active clicked image layout color style rule */
+#lightboxImage {
+    border: 5px solid var(--albay-green);
+}
+
+/* disable zoom hover effect exclusively for inquiry form wrapper */
+.card.shadow-sm.border-0:hover {
+    transform: none !important;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
